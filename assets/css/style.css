@@ -1,0 +1,48 @@
+
+body {
+    background-color: #f5f7fb;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.hero-section {
+    background: linear-gradient(
+        135deg,
+        #0d47a1,
+        #1976d2
+    );
+
+    color: white;
+    padding: 85px 20px;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+}
+
+.hero-section p {
+    font-size: 18px;
+}
+
+.section-title {
+    font-weight: 700;
+    color: #17365d;
+}
+
+.prodi-card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.prodi-card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    margin-top: 60px;
+}
